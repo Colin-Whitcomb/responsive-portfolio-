@@ -13,17 +13,18 @@
     <title>Contact</title>
 </head>
 
-<body>
+<body style="height: 100vh;">
 
     <!-- Nav Bar: Name ...... About|Portfolio|Contact (SAME!)-->
     <nav class="navbar navbar-expand-lg navbar-white border">
         <a class="navbar-brand mr-1" href="https://www.linkedin.com/in/colin-whitcomb-b808301a6/">
-            <div class="p-4 mb-2 bg-info text-white">Colin Whitcomb</div>
+            <div class="p-4 mb-2 bg-info text-white shadow p-3 rounded"
+                style="font-family: Arial, Helvetica, sans-serif;">Colin Whitcomb</div>
             <div class="navbar-text pt-1 pb-0 ml-2">
-                <p style="color: gray;">Follow me on LinkedIn!</p>
+                <p style="color: gray; font-family: Arial, Helvetica, sans-serif" ;>Follow me on LinkedIn!</p>
             </div>
         </a>
-        <div class="navbar-nav ml-auto flex-row text-dark">
+        <div class="navbar-nav ml-auto flex-row text-dark" style="font-family: Arial, Helvetica, sans-serif;">
             <a class="nav-item nav-link mx-3 active" style="color: gray" href="./index.html">About</a>
             <a class="nav-item nav-link mx-3" style="color: gray;" href="./portfolio.html">Portfolio</a>
             <a class="nav-item nav-link mx-3" style="color: black;" href="./contact.html">Contact<span
@@ -37,11 +38,11 @@
     <section class="p-3 mb-2 bg-light text-dark">
         <br>
         <!--Content-->
-        <div class="container width-fixed">
+        <div class="container width-fixed" style="font-family: Arial, Helvetica, sans-serif;">
             <div class="p-3 mb-2 bg-white text-dark shadow p-3 rounded">
                 <br>
                 <div>
-                    <div style="color: #5bc0de; font-family: Arial, Helvetica, sans-serif">
+                    <div style="color: #5bc0de;">
                         <h1>
                             Contact
                         </h1>
@@ -74,14 +75,12 @@
         <!--md: Nav bar normal, Col1-2 Horizontally Stacked and stretched, space on bottom remains-->
         <!--lg: Space on the bottom remained same, right side margin increased.-->
         <!--Footer, unattached and full width (SAME! as index.html-->
-
-        <footer>
-            <div class="p-3 mb-2 bg-secondary text-white">
-                <p class="text-center text-dark small">@Copyright</p>
-            </div>
-        </footer>
-        </div>
     </section>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center flex-row">
+          <small>&copy;Copyright</small>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

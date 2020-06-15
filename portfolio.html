@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="sticky-footer.css" rel="stylesheet">
+
     <title>Portfolio</title>
 </head>
 
@@ -16,12 +18,13 @@
     <!-- Nav Bar: Name ...... About|Portfolio|Contact (SAME!)-->
     <nav class="navbar navbar-expand-lg navbar-white border">
         <a class="navbar-brand mr-1" href="https://www.linkedin.com/in/colin-whitcomb-b808301a6/">
-            <div class="p-4 mb-2 bg-info text-white">Colin Whitcomb</div>
+            <div class="p-4 mb-2 bg-info text-white shadow p-3 rounded"
+                style="font-family: Arial, Helvetica, sans-serif;">Colin Whitcomb</div>
             <div class="navbar-text pt-1 pb-0 ml-2">
-                <p style="color: gray;">Follow me on LinkedIn!</p>
+                <p style="color: gray; font-family: Arial, Helvetica, sans-serif" ;>Follow me on LinkedIn!</p>
             </div>
         </a>
-        <div class="navbar-nav ml-auto flex-row text-dark">
+        <div class="navbar-nav ml-auto flex-row text-dark" style="font-family: Arial, Helvetica, sans-serif;">
             <a class="nav-item nav-link mx-3 active" style="color: gray" href="./index.html">About
             </a>
             <a class="nav-item nav-link mx-3" style="color: black;" href="./portfolio.html">Portfolio<span
@@ -35,9 +38,9 @@
     <section class="p-3 mb-2 bg-light text-dark">
         <br>
         <!--Content-->
-        <div class="container">
+        <div class="container" style="font-family: Arial, Helvetica, sans-serif;">
             <div class="p-3 mb-2 bg-white text-dark mw-75 shadow p-3 rounded">
-                <div style="color: #5bc0de; font-family: Arial, Helvetica, sans-serif">
+                <div style="color: #5bc0de;">
                     <h1>Portfolio</h1>
                 </div>
                 <div class="row clearfix">
@@ -45,31 +48,32 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-6 pt-1 mx-auto">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/California_Golden_Bears_logo.svg"
-                                    height="500px" width="500px" class="img-fluid" alt="Responsive image">
+                                    height="500px" width="500px" class="img-fluid rounded d-block"
+                                    alt="Responsive image">
                             </div>
-                            <br>
-                            <div class="col-sm-12 col-md-6 pt-1 mx-auto">
-                                <img src="assets/images/ipad.webp" height="500px" width="500px" class="img-fluid"
+
+                            <div class="col-sm-12 col-md-6 pt-2 mx-auto">
+                                <img src="assets/images/ipad.webp" class="img-fluid rounded mx-auto d-block"
                                     alt="Responsive image">
                             </div>
                         </div>
-                        <br>
                         <div class="row">
                             <div class="col-sm-12 col-md-6 pt-1 mx-auto">
-                                <img src="assets/images/headphone.jpeg" height="500px" width="500px" class="img-fluid"
+                                <img src="assets/images/headphone.jpeg" class="img-fluid rounded d-block"
                                     alt="Responsive image">
                             </div>
-                            <br>
                             <div class="col-sm-12 col-md-6 pt-1 mx-auto">
-                                <img src="assets/images/rndword.jpg" height="500px" width="500px" class="img-fluid"
+                                <img src="assets/images/rndword.jpg" class="img-fluid rounded d-block"
                                     alt="Responsive image">
                             </div>
                         </div>
-                        <br>
                         <div class="row">
                             <div class="col-sm-12 col-md-6 pt-1 mx-auto">
-                                <img src="assets/images/numbergame.jpg" height="500px" width="500px" class="img-fluid"
+                                <img src="assets/images/numbergame.jpg" class="img-fluid rounded d-block"
                                     alt="Responsive image">
+                                <div class="headline" mx-auto>
+                                    <h1>Try #1</h1>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,14 +85,14 @@
             <!--sm: Nav bar stacked vertically (SAME!), Col1-3 Stacked vertically (SAME! structure), Col4-6 hidden, NO footer-->
             <!--md: Nav bar normal, Col[1-2] [3-4] [5-6] Horizontally Stacked, Footer in-->
             <!--lg: Content div stretched vertically, but right margin has increased, no static image-->
-
+        </section>
             <!--Footer, unattached and full width-->
-            <footer>
-                <div class="p-3 mb-2 bg-secondary text-white">
-                    <p class="text-center text-dark small">@Copyright</p>
+            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center flex-row">
+                  <small>&copy;Copyright</small>
                 </div>
             </footer>
-    </section>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

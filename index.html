@@ -17,12 +17,12 @@
     <!-- Nav Bar: Name ...... About|Portfolio|Contact-->
     <nav class="navbar navbar-expand-lg navbar-white border">
         <a class="navbar-brand mr-1" href="https://www.linkedin.com/in/colin-whitcomb-b808301a6/">
-            <div class="p-4 mb-2 bg-info text-white">Colin Whitcomb</div>
+            <div class="p-4 mb-2 bg-info text-white shadow p-3 rounded" style="font-family: Arial, Helvetica, sans-serif;">Colin Whitcomb</div>
             <div class="navbar-text pt-1 pb-0 ml-2">
-                <p style="color: gray;">Follow me on LinkedIn!</p>
+                <p style="color: gray; font-family: Arial, Helvetica, sans-serif";>Follow me on LinkedIn!</p>
             </div>
         </a>
-        <div class="navbar-nav ml-auto flex-row text-dark">
+        <div class="navbar-nav ml-auto flex-row text-dark" style="font-family: Arial, Helvetica, sans-serif;">
             <a class="nav-item nav-link mx-3 active" style="color: black" href="./index.html">About<span
                     class="sr-only">(Current)</span>
             </a>
@@ -36,15 +36,15 @@
     <section class="p-3 mb-2 bg-light text-dark">
         <br>
         <!--Content-->
-        <div class="container">
+        <div class="container" style="font-family: Arial, Helvetica, sans-serif;">
             <div class="row col-md-12 shadow p-3 rounded mb-2 bg-white text-dark">
-                <div style="color: #5bc0de; font-family: Arial, Helvetica, sans-serif">
+                <div style="color: #5bc0de;">
                     <h1>About Me</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/images/colin-prof-2.jpg" height="500px" width="500px" class="img-fluid"
-                            alt="Responsive image">
+                        <img src="assets/images/colin-prof-2.jpg" height="500px" width="500px" class="img-fluid rounded d-block"
+                            alt="Profile picture">
                     </div>
                     <div class="col-md-6 pt-md-0 pt-sm-4 pl-md-4 pr-lg-5">
                         <p>
@@ -64,14 +64,13 @@
                 </div>
             </div>
         </div>
-
+    </section>
         <!--Footer, unattached and full width-->
-        <footer>
-            <div class="p-3 mb-2 bg-secondary text-white">
-                <p class="text-center text-dark small">@Copyright</p>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <div class="container text-center flex-row">
+              <small>&copy;Copyright</small>
             </div>
         </footer>
-
 
         <!--Differences in Size-->
         <!--xs: Content takes up full screen-->
@@ -79,7 +78,7 @@
         <!--md: Nav bar normal, Col1-2 Horizontally Stacked, Col3 wrapped/break-->
         <!--lg: Col2 wrapped/break; Col3 full width; margin/page space-->
 
-    </section>
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
