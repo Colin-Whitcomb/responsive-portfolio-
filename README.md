@@ -1,5 +1,37 @@
-# Helpful Sources
-Spacing between elements:
-1) codeply.com/go/LN7xDgslxh/bootstrap-4-space-between-columns
-2) https://stackoverflow.com/questions/22989515/bootstrap-add-margin-padding-space-between-columns#:~:text=Simply%20add%20a%20div%20within,add%20additional%20padding%20within%20it.&text=This%20will%20automatically%20render%20some%20space%20between%20the%202%20divs.&text=Just%20add%20'justify%2Dcontent%2Daround'%20class.
+# Colin Whitcomb 
 
+## Deployed Site
+1) https://colin-whitcomb.github.io/responsive-portfolio-/
+___
+## Summary & Process
+
+In this assignment our objective was to create a responsive portfolio webpage utilizing Bootstrap's grid system. 
+
+I began by conceptualizing the framework of working elements through an extensive pseduocode process; however, some of these plans transformed. My initial coding created the base elements that would be shared across multiple pages (i.e. Navbar, Footer, background etc...) on the contact page - moving to the home page and portfolio afterwards. 
+
+Although I made sure that my pages and images were responsive, I also took the time to add a sticky footer and utilized nested rows in the portfolio page (see below). Additionally, I linked the name button to my LinkedIn account and added the subtext accordingly. 
+___
+## Screenshots 
+
+1. **Sticky Footer** 
+
+
+![Screenshot](assets/images/Sticky-Footer.png)
+
+2. **Nested Rows** 
+
+![Screenshot](assets/images/Nested-Rows.png)
+
+___
+## Technologies / Resources
+- Visual Studio Code
+- Git / GitHub / GitPages
+- Bootstrap / HTML 
+
+- For this exercise I relied heavily on the getbootstrap.com documentation.
+--- 
+## Author
+
+* **Colin Whitcomb** [LinkedIn](https://ww.linkedin.com/in/colin-whitcomb-b808301a6/)
+
+___
