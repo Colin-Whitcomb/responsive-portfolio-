@@ -15,7 +15,7 @@ ___
 
 1. **Rounded Image Corners**
 
-<img src="assets/images/rounded-corner2.png" style="width:400px;" />
+<img src="assets/images/rounded-corner2.png" style="width:400px;"/>
 
 2. **Mobile Rendering / Shadowing Effects / Sticky Footer**
 
