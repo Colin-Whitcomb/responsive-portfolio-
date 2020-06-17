@@ -19,7 +19,7 @@ ___
 
 2. **Mobile Rendering / Shadowing Effects / Sticky Footer**
 
-![Screenshot](assets/images/mobil.png)
+![Screenshot](assets/images/mobilv2.png)
 
 ___
 ## Technologies / Resources
