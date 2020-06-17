@@ -9,21 +9,18 @@ In this assignment our objective was to create a responsive portfolio webpage ut
 
 I began by conceptualizing the framework of working elements through an extensive pseduocode process; however, some of these plans transformed. My initial coding created the base elements that would be shared across multiple pages (i.e. Navbar, Footer, background etc...) on the contact page - moving to the home page and portfolio afterwards. 
 
-Although I made sure that my pages and images were responsive, I also took the time to add a sticky footer, utilized nested rows in the portfolio page, added some shadow elements, and rounded all image corners (see below). Additionally, I linked the name button to my LinkedIn account and added the subtext accordingly. 
+Although I made sure that my pages and images were responsive, I also took the time to add a sticky footer, added some shadow elements, and rounded all image corners. Additionally, I linked the name button to my LinkedIn account and added the subtext accordingly. 
 ___
 ## Screenshots 
 
 1. **Rounded Image Corners**
 
-![Screenshot](assets/images/rounded-corner2.png)
-___
-2. **Sticky Footer** 
+<img src="assets/images/rounded-corner2.png" style="width:400px;" />
 
-![Screenshot](assets/images/Sticky-Footer.png)
+2. **Mobile Rendering / Shadowing Effects / Sticky Footer**
 
-3. **Nested Rows** 
+<img src="assets/images/mobil.png" style="width:400px;"/>
 
-![Screenshot](assets/images/Nested-Rows.png)
 
 ___
 ## Technologies / Resources
